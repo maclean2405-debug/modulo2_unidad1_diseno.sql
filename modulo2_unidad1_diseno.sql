@@ -13,7 +13,7 @@ CREATE TABLE clientes (
 CREATE TABLE productos (
 	id_producto INT,
     descripcion VARCHAR(255),
-    precio DECIMAL (10,2),
+    precio DECIMAL(10,2),
 	esta_activo BOOLEAN
 );
 
