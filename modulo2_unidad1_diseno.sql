@@ -13,6 +13,7 @@ CREATE TABLE clientes (
 CREATE TABLE productos (
 	id_producto INT,
     descripcion VARCHAR(255),
-    precio DECIMAL (10,2),
-    esta_activo VARCHAR(2)
+    precio DECIMAL (10,2), 
     );
+-- decimal(10,2) permite precisión exacta para valores monetarios y evita redondeos
+    esta_activo BOOLEAN
